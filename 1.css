@@ -1,0 +1,24 @@
+.menungang{
+    display: flex;
+    list-style: none;
+    width: 900px;
+    margin: 0 auto;
+}
+.menu{
+    background-color: aqua;
+    width: 100%;
+    height: 30px;
+} 
+.menungang a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 7px;
+    display: block;
+    margin-left: 5px;
+    transition: 0.4s;
+    
+}
+.menungang a:hover{
+    background-color: ivory;
+    padding-top: 3px;
+}

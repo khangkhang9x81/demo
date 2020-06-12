@@ -1,0 +1,10 @@
+.mys{
+width: 500px;
+height: 300px;
+}
+.mys img{
+    width: 500px;
+}
+.mys .carousel-indicators{
+    display: none;
+}

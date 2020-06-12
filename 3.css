@@ -1,0 +1,122 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    height: 5000px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    
+    position: fixed;
+    width: 100%;
+
+
+}
+.menu-left{
+    display: flex;
+}
+.menu-left li{
+    list-style: none;
+}
+.menu-left li:after{
+ 
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+    border-bottom: solid 3px #019fb6;
+
+}
+.menu-left li:after:hover{
+opacity: 1;
+background-color:tomato ;
+
+}
+.menu-left li a{
+    text-decoration: none;
+}
+
+.menu-right{
+    display: flex;
+} */
+h2 {
+    display: block;
+    margin: 50px;
+    padding: 10px;
+    color: black;
+    background-color: ;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    }
+ 
+    h2:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 50%;
+        width: 0;
+        height: 95%;
+       border-bottom: 5px solid;
+        transition: .25s;
+        z-index: -1;
+        }
+        h2:hover:after {
+            width: 50%;
+            left: auto;
+            right: 0;
+        }
+        h2:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            right: 0;
+            width: 0;
+            height: 95%;
+           border-bottom: 5px solid;
+            transition: .25s;
+            z-index: -1;
+            }
+        h2:hover:before {
+                width: 50%;
+                left: 0;
+                right: auto;
+            }
+            .form {
+                background-color: #666;
+                color:#fff;
+                }
+                
+                .second::-webkit-input-placeholder{
+                color:white;
+                letter-spacing: 1px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                padding-left:40px;
+                 }
+                .third::-webkit-input-placeholder{
+                color:white;
+                letter-spacing: 1px;
+                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                 padding-left:50px;
+                }
+                
+                .one::-webkit-input-placeholder{
+                color:white;
+                letter-spacing: 1px;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                padding-left:80px
+                }
+                   .form::-webkit-input-placeholder{
+                 color:white;
+                 letter-spacing: 1px;
+                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                
+                 }
+    
